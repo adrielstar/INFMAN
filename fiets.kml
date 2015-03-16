@@ -1,0 +1,147 @@
+<wfs:FeatureCollection xmlns:ms="http://mapserver.gis.umn.edu/mapserver" xmlns:wfs="http://www.opengis.net/wfs" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-basic.xsd http://mapserver.gis.umn.edu/mapserver http://ows.gis.rotterdam.nl/cgi-bin/mapserv.exe?map=d:\gwr\webdata\mapserver\map\vzg_pub.map&SERVICE=WFS&VERSION=1.0.0&REQUEST=DescribeFeatureType&TYPENAME=sdo_rdam_vzg_2000087&OUTPUTFORMAT=XMLSCHEMA">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+91643.500000,437014.900000 97280.220000,440490.680000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<gml:featureMember>
+<ms:sdo_rdam_vzg_2000087 fid="sdo_rdam_vzg_2000087.1985458">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+91879.300000,437599.700000 91879.300000,437599.700000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<ms:GEOM>
+<gml:Point srsName="EPSG:28992">
+<gml:coordinates>91879.300000,437599.700000</gml:coordinates>
+</gml:Point>
+</ms:GEOM>
+<ms:ID>1985458</ms:ID>
+<ms:TYPE>5518</ms:TYPE>
+<ms:TYPE_OMSCHRIJVING>Fietsenstallingen</ms:TYPE_OMSCHRIJVING>
+<ms:OMSCHRIJVING>Fietsenstalling Centraal station</ms:OMSCHRIJVING>
+<ms:POSTCODE/>
+<ms:HUISNR/>
+<ms:HUISNUMMER/>
+</ms:sdo_rdam_vzg_2000087>
+</gml:featureMember>
+<gml:featureMember>
+<ms:sdo_rdam_vzg_2000087 fid="sdo_rdam_vzg_2000087.1982158">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+97280.220000,440490.680000 97280.220000,440490.680000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<ms:GEOM>
+<gml:Point srsName="EPSG:28992">
+<gml:coordinates>97280.220000,440490.680000</gml:coordinates>
+</gml:Point>
+</ms:GEOM>
+<ms:ID>1982158</ms:ID>
+<ms:TYPE>5518</ms:TYPE>
+<ms:TYPE_OMSCHRIJVING>Fietsenstallingen</ms:TYPE_OMSCHRIJVING>
+<ms:OMSCHRIJVING>Fietspunt</ms:OMSCHRIJVING>
+<ms:POSTCODE>3067GL</ms:POSTCODE>
+<ms:HUISNR>23</ms:HUISNR>
+<ms:HUISNUMMER>23</ms:HUISNUMMER>
+</ms:sdo_rdam_vzg_2000087>
+</gml:featureMember>
+<gml:featureMember>
+<ms:sdo_rdam_vzg_2000087 fid="sdo_rdam_vzg_2000087.1985458">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+91847.000000,437655.000000 91847.000000,437655.000000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<ms:GEOM>
+<gml:Point srsName="EPSG:28992">
+<gml:coordinates>91847.000000,437655.000000</gml:coordinates>
+</gml:Point>
+</ms:GEOM>
+<ms:ID>1985458</ms:ID>
+<ms:TYPE>5518</ms:TYPE>
+<ms:TYPE_OMSCHRIJVING>Fietsenstallingen</ms:TYPE_OMSCHRIJVING>
+<ms:OMSCHRIJVING>Fietsenstalling Centraal station</ms:OMSCHRIJVING>
+<ms:POSTCODE>3013AK</ms:POSTCODE>
+<ms:HUISNR/>
+<ms:HUISNUMMER>hoek Weena</ms:HUISNUMMER>
+</ms:sdo_rdam_vzg_2000087>
+</gml:featureMember>
+<gml:featureMember>
+<ms:sdo_rdam_vzg_2000087 fid="sdo_rdam_vzg_2000087.1018607">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+92572.350000,437398.600000 92572.350000,437398.600000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<ms:GEOM>
+<gml:Point srsName="EPSG:28992">
+<gml:coordinates>92572.350000,437398.600000</gml:coordinates>
+</gml:Point>
+</ms:GEOM>
+<ms:ID>1018607</ms:ID>
+<ms:TYPE>5518</ms:TYPE>
+<ms:TYPE_OMSCHRIJVING>Fietsenstallingen</ms:TYPE_OMSCHRIJVING>
+<ms:OMSCHRIJVING>Fietsenstalling Meent</ms:OMSCHRIJVING>
+<ms:POSTCODE>3011JH</ms:POSTCODE>
+<ms:HUISNR>151</ms:HUISNR>
+<ms:HUISNUMMER>151</ms:HUISNUMMER>
+</ms:sdo_rdam_vzg_2000087>
+</gml:featureMember>
+<gml:featureMember>
+<ms:sdo_rdam_vzg_2000087 fid="sdo_rdam_vzg_2000087.1191754">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+91643.500000,438126.960000 91643.500000,438126.960000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<ms:GEOM>
+<gml:Point srsName="EPSG:28992">
+<gml:coordinates>91643.500000,438126.960000</gml:coordinates>
+</gml:Point>
+</ms:GEOM>
+<ms:ID>1191754</ms:ID>
+<ms:TYPE>5518</ms:TYPE>
+<ms:TYPE_OMSCHRIJVING>Fietsenstallingen</ms:TYPE_OMSCHRIJVING>
+<ms:OMSCHRIJVING>Buurtfietsenstalling Walenburgerweg</ms:OMSCHRIJVING>
+<ms:POSTCODE>3033AG</ms:POSTCODE>
+<ms:HUISNR>80</ms:HUISNR>
+<ms:HUISNUMMER>80</ms:HUISNUMMER>
+</ms:sdo_rdam_vzg_2000087>
+</gml:featureMember>
+<gml:featureMember>
+<ms:sdo_rdam_vzg_2000087 fid="sdo_rdam_vzg_2000087.1385267">
+<gml:boundedBy>
+<gml:Box srsName="EPSG:28992">
+<gml:coordinates>
+92593.380000,437014.900000 92593.380000,437014.900000
+</gml:coordinates>
+</gml:Box>
+</gml:boundedBy>
+<ms:GEOM>
+<gml:Point srsName="EPSG:28992">
+<gml:coordinates>92593.380000,437014.900000</gml:coordinates>
+</gml:Point>
+</ms:GEOM>
+<ms:ID>1385267</ms:ID>
+<ms:TYPE>5518</ms:TYPE>
+<ms:TYPE_OMSCHRIJVING>Fietsenstallingen</ms:TYPE_OMSCHRIJVING>
+<ms:OMSCHRIJVING>Fietsenstalling Coolsingel</ms:OMSCHRIJVING>
+<ms:POSTCODE>3012AG</ms:POSTCODE>
+<ms:HUISNR>215</ms:HUISNR>
+<ms:HUISNUMMER>215</ms:HUISNUMMER>
+</ms:sdo_rdam_vzg_2000087>
+</gml:featureMember>
+</wfs:FeatureCollection>
