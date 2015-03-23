@@ -24,18 +24,23 @@ function get_omschrijving()
 	 $html = "";
 	$url = 'http://www.veiligstallen.nl/veiligstallen.xml';
 		$xml = simpleXML_load_file($url,"SimpleXmlElement");
+?>
+		<select name="years">
+<?php
 		foreach ($xml->Fietsenstalling as $oms) 
 		{
-			echo "<strong>Naam:</strong> ".$oms->Naam."<br/>";
-			echo "<strong>Omschrijving:</strong> ".$oms->Omschrijving."<br/>";
-			echo "<strong>ID:</strong> ".$oms->ID."<br/>";
-			echo "<strong>Gemeente:</strong> ".$oms->Gemeente."<br/>";
-			echo "<strong>Straat:</strong> ".$oms->Straat."<br/>";
-			echo "<strong>Postcode:</strong> ".$oms->Postcode."<br/>";
+			// echo "<strong>Naam:</strong> ".$oms->Naam."<br/>";
+			// echo "<strong>Omschrijving:</strong> ".$oms->Omschrijving."<br/>";
+			// echo "<strong>ID:</strong> ".$oms->ID."<br/>";
+			echo "<option ><strong>Gemeente:</strong> ".$oms->Gemeente."</option><br/>";
+			// echo "<strong>Straat:</strong> ".$oms->Straat."<br/>";
+			// echo "<strong>Postcode:</strong> ".$oms->Postcode."<br/>";
 
 			echo "</p>";
 		}
-		
+		?>
+		</select>
+		<?php
 }
 
 
