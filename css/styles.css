@@ -71,3 +71,9 @@ body{
 .col-xs-8 {
   width: 29.666667%!important;
 }
+
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
