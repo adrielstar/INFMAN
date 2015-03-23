@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/isaax.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+</head>
+<body>
+    <div id="map" style="width: 600px; height: 600px;"></div>
+
+    <script type="text/javascript">
+        readData();
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 8,
+            center: new google.maps.LatLng(52.38, 5.5),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map
+            });
+
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infowindow.setContent(locations[i][0]);
+                    infowindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+    </script>
+</body>
+</html>
